@@ -12,6 +12,8 @@ public class Main {
   queueColors.add("magento");
   queueColors.add("orange");
   queueColors.add("cyan");
+    
+ queueColors.offer("white");
   
   System.out.println("Colors in the Priority Queues are: ");  
   System.out.println(queueColors);
