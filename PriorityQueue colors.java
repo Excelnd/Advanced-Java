@@ -15,5 +15,14 @@ public class Main {
   
   System.out.println("Colors in the Priority Queues are: ");  
   System.out.println(queueColors);
+  
+  PriorityQueue<String> queueColors2 = new PriorityQueue<>();
+  queueColors2.add("black");
+  queueColors2.add("white"); 
+  
+  queueColors2.addAll(queueColors);
+  
+    System.out.println("Colors2  in the Priority Queues are: ");  
+  System.out.println(queueColors2);
  }
 }
