@@ -15,9 +15,5 @@ public class Main {
   
   System.out.println("Colors in the Priority Queues are: ");  
   System.out.println(queueColors);
-  
-  for (String q: queueColors) {
-      System.out.println(q);
-  }
  }
 }
